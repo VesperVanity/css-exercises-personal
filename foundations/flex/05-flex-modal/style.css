@@ -23,6 +23,9 @@ body {
 }
 
 .icon {
+  justify-self: left;
+  margin-left: 24px;
+  margin-top: 12px;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -66,4 +69,45 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.top-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 12px;
+  gap: 64px;
+  
+}
+
+
+
+.text-container
+{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container
+{
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.bottom-container
+{
+  padding: 12px 24px;
+
+}
+
+.main-container
+{
+  justify-items: center;
+  align-items: center;
+  margin-left: 32px;
 }
